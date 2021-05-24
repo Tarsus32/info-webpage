@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">  -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Milan Gmitro</title> 
+</head>
+<body class="font-body">
+
+    <!-- MENU STRANKY -->
+
+    <header class=" header-full fixed  bg-transparent w-full z-50" >
+        <div class="  ">
+            <nav class="nav-bar"> <!-- classes menu-container menu-li -->
+                <div class="logo pl-3 "> 
+                    <a href="#home" class="text-xl">
+                        <img class="h-10"  src="../public/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="open-menu pr-6"><i class="fas fa-bars ham-menu "></i></div> 
+                <ul class=" main-menu "> <!-- menu-ul  -->
+                    <li class="links "><a href="#about" class=" menu-li-a menu-link ">O mne</a></li> <!-- li class li-links-menu   a class menu-link  -->
+                    <li class="links " ><a href="#aboutmore" class=" menu-li-a menu-link" >Niečo viac</a></li>
+                    <li class="links " ><a href="#portfolio" class=" menu-li-a menu-link" >Portfolio</a></li>
+                    <!-- <li class="links " ><a href="#" class=" menu-li-a menu-link" >Blog</a></li> -->
+                    <li class="links " ><a href="#contact" class=" menu-li-a menu-link" >Kontakt</a></li>
+                    <div class="times-close "><i class="fas fa-times ham-menu  close-menu "></i></div>
+                </ul>            
+            </nav>
+        </div>
+    </header>
+
+    <!-- HLAVNA STRANKA -->
+    <main id="home" class=" ">
+        <section class="home home-container" >
+            <div class=" border-left "> 
+                <div class="borders"> 
+                    <h5 class="sm:text-2xl text-xl text-white font-semibold">Ahojte moje meno je</h5>
+                    <h1 class=" animate__animated animate__fadeInRight title" >Milan Gmitro</h1>
+                    <h3 class="title-h3 text-xl text-white font-semibold">Junior  
+                        <span class="write-text" data-wait="3000" data-words='["Web Developer", "Front-end Developer", "Designer"]'></span>
+                    </h3>
+                    <div class="pt-6 pb-3">
+                        <a href="../public/download/CV_Milan_Gmitro.pdf" download="CV" class="btn-cv border-2">Stiahnuť CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SEKCIA O MNE -->
+
+        <section  id="about" class=" about-container ">
+           <div class="about-content">
+                <div class="  w-6/12 px-2  flex-1 lg:pl-9">
+                    <h1 class="animate__animated animate__fadeInDown about-title">ABOUT <strong class="text-yellow-300">ME</strong></h1>
+                    <h3 class="about-text ">Ahojte ja som Junior Webdeveloper a Junior Frontend programátor. Rád by som sa uplatnil v odvetví IT.</h3>
+                    <p class="mb-0 pr-4 text-justify lg:mb-7 leading-7  sm:pl-0 sm:text-lef ">
+                        Môjou záľubou sa stalo programovanie, po tom ako som videl kurzy od  <a href="https://www.learn2code.sk/" class="  " ><strong class="text-yellow-300 hover:text-yellow-600 transition ease-in duration-500" >Learn2Code</strong></a>  od   <a href="https://yablko.sk/"  ><strong class="text-yellow-300 hover:text-yellow-600 transition ease-in duration-500" >Yablka.</strong></a> Tak ako to podal on vyzeralo programovanie ako veľká zábava. Tak som to vyskúšal a drží ma to doteraz.
+                    </p>
+                    <div class=" flex flex-wrap  " >
+                        <div class=" skills " >  
+                            <h2 id="title2" class="text-2xl mb-2 ">Skúsenosti</h2>
+                            <ul class="cursor-pointer">
+                                <li class="about-link menu-link "  ><i class="fab fa-html5 mr-3"></i>HTML5, </li>
+                                <li class="about-link menu-link " ><i class="fab fa-css3-alt mr-3"></i></i>CSS3, Sass, Tailwind, Bootstrap,  </li>
+                                <li class="about-link menu-link "><i class="fab fa-php mr-3"></i>PHP, Laravel, Lumen, </li>
+                                <li class="about-link menu-link "><i class="fas fa-database mr-3"></i>MySQL, SQLite</li>
+                                <li class="about-link menu-link "><i class="fab fa-js mr-3"></i>Javascript, JQuery, Vue js, </li>
+                            </ul> 
+                        </div>
+                        <div class="my-photo-two "> 
+                            <figure class=" max-w-xs h-auto " >
+                                <img src="../public/img/my-img.png" alt="My_photo" class="mx-auto">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-photo-one ">  
+                    <figure class="" >
+                        <img src="../public/img/my-img.png" alt="My_photo" class="mx-auto">
+                    </figure>
+                </div>
+            </div>
+          
+        </section>
+
+        <!-- ASIDE SKILLS -->
+
+        <aside id="progress"  class=" pb-10 ">
+            <ul class="ul-progress ">
+                <li class=" link-progress ">
+                    <h3 class="html title-progress">HTML5</h3>
+                    <svg class=" svg-progress">
+                        <circle class="underlay  svg-progress-underlay " cx="50%" cy="50%" r="60"></circle>
+                        <circle class="progress-html svg-progress-circle " cx="50%" cy="50%" r="60"></circle>
+                    </svg>
+                    <p class=" num num-html num-progress">0%</p>
+                </li>
+                <li  class=" link-progress " >
+                    <h3 class="css title-progress" >CSS3/SASS</h3>
+                    <svg class=" svg-progress">
+                        <circle class="underlay  svg-progress-underlay " cx="50%" cy="50%" r="60"></circle>
+                        <circle class="progress-css svg-progress-circle " cx="50%" cy="50%" r="60"></circle>
+                    </svg>
+                    <p class="num num-css num-progress">0%</p>  
+                </li>
+                <li  class=" link-progress " >
+                    <h3 class="php title-progress" >PHP</h3>
+                    <svg class=" svg-progress">
+                        <circle class="underlay  svg-progress-underlay " cx="50%" cy="50%" r="60"></circle>
+                        <circle class="progress-php svg-progress-circle " cx="50%" cy="50%" r="60"></circle>
+                    </svg>
+                    <p class="num num-php num-progress">0%</p>  
+                </li>
+                <li  class="link-progress " >
+                    <h3 class="js title-progress" >JAVASCRIPT</h3>
+                    <svg class=" svg-progress">
+                        <circle class="underlay  svg-progress-underlay " cx="50%" cy="50%" r="60"></circle>
+                        <circle class="progress-js svg-progress-circle " cx="50%" cy="50%" r="60"></circle>
+                    </svg> 
+                    <p class="num num-js num-progress">0%</p> 
+                </li>
+            </ul>
+        </aside>
+
+        <!-- SEKCIA NIECO VIAC -->
+                
+        <section  id="aboutmore" class=" aboutmemore-container" >
+                <h1 class="animate__animated animate__fadeInDown aboutmemore-title" >NIEČO VIAC <strong class="text-yellow-300">O MNE</strong></h1>
+                <div class=" box-container">
+                    <div class="card box-style">
+                            <div class="left-side box-left-side bg-center bg-road-left">
+                                <h2 class="box-title text-right ">Cesta k pro</h2>
+                            </div>
+                            <div class="right-side box-right-side bg-center bg-road-right">
+                                <h2 class="box-title">gramovaniu</h2>
+                            </div>
+                            <p class="back-side box-text ">
+                                Tak ako každý som sa učil najprv HTML a CSS. Potom mi to už nestačilo tak som prešiel na Sass. Potom som sa dostal k základom programovania, kde som sa naučil základne princípy programovania ako funkcie, cykly a iné vychtávky cez jazyk PHP, ktoré mi uľahčili písanie kódu. Nakoniec som sa do skúsil databázy ako SQL a MySql. Momentalne sa snažim naučiť Javascript a JQuery aby moje stránky mali dynamiku.
+                            </p>
+                    </div>
+                    <div class="card  box-style">
+
+                            <div class="left-side  box-left-side bg-right bg-hobby-left">
+                                <h2 class="text-3x1 text-right mr-1 box-title" >Moje</h2>
+                            </div>
+                            <div class="right-side box-right-side bg-left bg-hobby-right">
+                                <h2 class=" ml-1 box-title" >záľuby</h2>
+                            </div>
+                            <p class="back-side box-text" >
+                                Medzi moje hobby patrí programovanie, učenie sa nových vecí, šport a iné aktivity, ktoré ma posúvajú vpred. Taktiež v poslednom čase sa venujem spolu s priateľkou turistike.
+                            </p>
+                    </div>
+                    <div class="card box-style">
+                        <div class="left-side box-left-side bg-right bg-future-left">
+                            <h2 class="  text-right mr-1 box-title" >Moja</h2>
+                        </div>
+                        <div class="right-side box-right-side bg-left bg-future-right">
+                            <h2 class=" ml-1 box-title" >buducnosť</h2>
+                        </div>
+                        <p class="back-side box-text" >
+                            V budúcnosti by som chcel pracovať v tomto odvetví nakoľko ten pocit ako vytvoriť od úplného základu stránku alebo aplikaciu je na nezaplatenie.A taktiež naučiť sa nové veci, technológie, ktoré k tomu dopomôžu.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEKCIA PORTFOLIO -->
+
+            <section id="portfolio"  class="portfolio-container" >
+                <div class="px-9 mx-7">
+                    <h1 class="portfolio-title"> MOJE <strong class="text-yellow-300">PORTFÓLIO</strong></h1>
+                        
+                        <ul class="menu-ul ">
+                            <li class="btn-li active" data-name="all"><a href="#" >Všetko</a></li>
+                            <li class="btn-li" data-name="portfolio"><a href="#" >Portfólio</a></li>
+                            <li class="btn-li" data-name="webpage" ><a href="#" >Webstránky</a></li>
+                            <li class="btn-li" data-name="other" ><a  href="#" >Iné</a></li>           
+                        </ul>
+
+                        <ul class="gallery flex flex-wrap mt-7 ">
+                            <li class="image" data-name="portfolio" data-info="Web stránka cez Vue.js" ><span class="lightbox"><img  class="w-full" src="../public/img/gallery/first-page.jpg" alt="first-page"></span></li>
+                            <li class="image" data-name="webpage" data-info="Web stránka cez html,css,sass" ><span class="lightbox"><img class="w-full" src="../public/img/gallery/village.jpg" alt="village"></span></li>
+                            <li class="image" data-name="webpage" data-info="Web stránka cez html,css" ><span class="lightbox"><img class="w-full" src="../public/img/gallery/psychologia.jpg" alt="psychlogia"></span></li>
+                            <li class="image" data-name="other" data-info="Web stránka " ><span class="lightbox"><img class="w-full" src="../public/img/gallery/maxresdefault.jpg" alt="profile"></span></li>
+                            <li class="image" data-name="other" data-info="Web stránka" ><span class="lightbox"><img class="w-full" src="../public/img/gallery/profile-v3-wordpress-theme.jpg" alt="wordpress"></span></li>
+                            <!-- <li class="image" data-name="" data-info="" ><span class="lightbox"><img class="w-full" src="#" alt=""></span></li>
+                            <li class="image" data-name="" data-info="" ><span class="lightbox"><img class="w-full" src="#" alt=""></span></li>
+                            <li class="image" data-name="" data-info="" ><span class="lightbox"><img class="w-full" src="#" alt=""></span></li> -->
+                        </ul>
+                </div>
+                <div class="light-box">
+                    <div class="info">
+                        <h4 class="title-lightbox">Kategória: <span class="ml-1 font-medium" >Nezadefinovaná</span></h3>
+                        <i class=" icon-x fas fa-times "></i> 
+                    </div>
+                    <div class="image-box">
+                        <img  class="light-img" src="" alt="">
+                    </div>
+                </div>
+                <div class="shadow"></div>
+
+            </section>
+
+             <!-- COUNTER UP  -->
+
+            <aside id="counterUp" class="counter-container "> <!-- skryte  -->
+                <ul class="counter-ul">
+                    <li  class=" counter-link" >
+                        <p class="work counter-title ">0</p>
+                        <h3 class="counter-text" >Hodiny práce</h3>
+                    </li>
+                    <li  class=" counter-link" >
+                        <p class=" learn counter-title ">0</p> 
+                        <h3 class="counter-text " > Šálky Kávy</h3>
+                    </li>
+                    <li  class="counter-link" >
+                        <p class=" coffee counter-title ">0</p> 
+                        <h3 class="counter-text " >Hodiny učenia</h3>    
+                    </li>
+                    <li  class="counter-link" >
+                        <p class=" finish counter-title ">0</p> 
+                        <h3 class="counter-text " >Dokončené projekty</h3>
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- SEKCIA KONTAKT -->
+
+            <section id="contact" class=" contact-container " >
+                <h1 class="contact-title  " >KON<strong class="text-yellow-300">TAKT</strong></h1>
+                <div class=" forms contact-forms  ">
+                    <form class="margin-form " action="https://formspree.io/f/xoqpgebr" method="POST" >
+                        <div class="contact-email-name  ">
+                            <div class=" contact-name ">  
+                                <input type="text" name="name" required class="contact-name-input name-input ">
+                                <span class="contact-name-span name-span transation duration-300 ease-linear" >Meno a Priezvisko</span>
+                            </div>
+                            <div class="contact-email">
+                                
+                                <input type="email" name="_replyto" required  class=" contact-name-input email-input ">
+                                <span class="contact-name-span email-span transation duration-300 ease-linear bottom-4">Email</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col">
+                            <textarea  id="" cols="30" rows="10" name="message"  required  class=" contact-textarea " ></textarea>
+                            <span class="contact-textarea-span transation duration-300 ease-linear">Napiš správu ...</span>
+                        </div>
+                        <div class="contact-btn-container">
+                            <button type="submit" value="Send" class=" contact-btn-submit ">Poslať</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            
+        </main>
+        
+        <!-- PATICKA + KONTAKT -->
+        <footer >
+                 <div class="footer-container ">
+                    <ul class="menu-social footer-ul " >
+                        <li class=" footer-link ">
+                            <a href="https://www.facebook.com/milan.gmitro" class="social-icon">
+                                <i class="fab fa-facebook-square fa-2x social-icons "></i>
+                                <span class="social-span">Facebook</span>
+                            </a>
+                         </li>
+                        <li class="footer-link">
+                            <a href="https://github.com/Tarsus32" class="social-icon">
+                                <i class="fab fa-github fa-2x social-icons"></i>
+                                <span class="social-span">GIThub</span>
+                            </a>
+                        </li>
+                        <li class="footer-link">
+                            <a href="tel:+421910993718" class="social-icon">
+                                <i class="fas fa-phone fa-2x social-icons"></i>
+                                <span class="social-span">+421 910 993 718</span>
+                            </a>
+                        </li>
+                        <li class="footer-link">
+                            <a href="mailto:milan.gmitro32@gmail.com" class="social-icon ">
+                                <i class="far fa-envelope fa-2x social-icons"></i>
+                                <span class="social-span">milan.gmitro32@gmail.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <aside class="aside-social">
+                    <p class="aside-social-text "> &#169; Všetky práva vyhradené, vyrobil 
+                        <a href="mailto:milan.gmitro32@gmail.com" class="aside-social-link "> Milan Gmitro </a> 2021
+                    </p>
+                </aside>  
+        </footer>
+        
+      <script src="anime.min.js"></script>
+      <script src="script.js"></script>  
+</body>
+</html>
