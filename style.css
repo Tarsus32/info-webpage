@@ -646,7 +646,7 @@ video {
 /* HOME PAGE */
 
 .home-container {
-  background-image: url('../public/img/titleimg2.jpg');
+  background-image: url('./img/titleimg2.jpg');
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -1067,7 +1067,7 @@ video {
 /* PORTFOLIO */
 
 .portfolio-container {
-  background-image: url('../public/img/titleimg4.jpg');
+  background-image: url('./img/titleimg4.jpg');
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -1374,7 +1374,7 @@ video {
 /* KONTAKT */
 
 .contact-container {
-  background-image: url('../public/img/titleimgcontact.jpg');
+  background-image: url('./img/titleimgcontact.jpg');
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -1769,27 +1769,27 @@ textarea:focus ~ span,
 }
 
 .bg-road-left{
-  background-image: url('../public/img/about/road1.jpg');
+  background-image: url('./img/about/road1.jpg');
 }
 
 .bg-road-right{
-  background-image: url('../public/img/about/road2.jpg');
+  background-image: url('./img/about/road2.jpg');
 }
 
 .bg-hobby-left{
-  background-image: url('../public/img/about/hobby1.jpg');
+  background-image: url('./img/about/hobby1.jpg');
 }
 
 .bg-hobby-right{
-  background-image: url('../public/img/about/hobby2.jpg');
+  background-image: url('./img/about/hobby2.jpg');
 }
 
 .bg-future-left{
-  background-image: url('../public/img/about/future1.jpg');
+  background-image: url('./img/about/future1.jpg');
 }
 
 .bg-future-right{
-  background-image: url('../public/img/about/future2.jpg');
+  background-image: url('./img/about/future2.jpg');
 }
 
 .bg-center{
